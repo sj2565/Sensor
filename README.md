@@ -1,5 +1,2 @@
-# Sensor
+# ensor
 sensor
-ddd
-dsf
-wer
