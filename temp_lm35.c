@@ -32,7 +32,7 @@ float GetLM35(){
 }
 
 int main() {
-    if (wiringPiSetup() == -1 || wiringPiSPISetup(SPI_CHANNEL, SPI_SPEED) == -1) {
+    if (wiringPiSPISetup(SPI_CHANNEL, SPI_SPEED) == -1) {
         fprintf(stderr, "SPI 초기화 실패!\n");
         return 1;
     }
